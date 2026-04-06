@@ -145,6 +145,7 @@
 ---
 
 ## 📁 Предлагаемая структура папок (app/)
+```
 app/ 
 ├── Models/ 
 │ ├── User.php 
@@ -171,10 +172,12 @@ app/
 │ └── ReportRepository.php 
 └── DTOs/ 
   └── EmployeeData.php
+```
 
 ---
 
 ## 🗂️ Рекомендуемая папка `ia/` для работы с ИИ
+```
 ia/ 
 ├── rules/ 
 │ ├── coding_style.md 
@@ -188,3 +191,4 @@ ia/
   ├── write_test.md 
   ├── debug_error.md 
   └── document_api.md
+```

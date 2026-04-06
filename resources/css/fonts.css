@@ -1,0 +1,22 @@
+/*Подключение переменного шрифта (если поддерживается)*/
+@font-face {
+    font-family: 'Golos Text Variable';
+    src: url('../fonts/GolosText/GolosText-VariableFont_wght.ttf') format('truetype');
+    font-weight: 400 900; /*Диапазон весов от 400 до 900;*/
+    font-style: normal;
+}
+
+/*Подключение статических шрифтов (резервные)*/
+@font-face {
+    font-family: 'Golos Text Static';
+    src: url('../fonts/GolosText/static/GolosText-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golos Text Static';
+    src: url('../fonts/GolosText/static/GolosText-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

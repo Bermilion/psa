@@ -1,0 +1,3 @@
+html, :host {
+    font-family: var(--font-sans), sans-serif;
+}
