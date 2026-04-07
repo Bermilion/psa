@@ -3,8 +3,6 @@
 @import './fonts.css';
 @import './base.css';
 
-@tailwind utilities;
-
 @theme {
     --font-sans: 'Golos Text Variable', 'Golos Text Static', sans-serif;
 
@@ -46,49 +44,50 @@
     --container-content-tablet: 704px;
 
     /* Цвета из макета */
-    --accent-base: #0088ff;
-    --accent-contrast: #ffffff;
-    --accent-light: #00aaff;
-    --accent-light-50: #00aaff80;
-    --accent-dark: #0066ff;
-    --accent-pale: #d1d9e0;
+    --color-accent-base: #0088ff;
+    --color-accent-contrast: #ffffff;
+    --color-accent-light: #00aaff;
+    --color-accent-light-50: #00aaff80;
+    --color-accent-dark: #0066ff;
+    --color-accent-pale: #d1d9e0;
 
-    --brand-accent: #0088ff;
-    --brand-light: #ffffff;
+    --color-brand-accent: #0088ff;
+    --color-brand-light: #ffffff;
 
-    --content-base: #f5f5f5;
-    --content-light: #ffffff;
-    --content-dark: #dddddd;
-    --content-contrast: #222222;
+    --color-content-base: #f5f5f5;
+    --color-content-light: #ffffff;
+    --color-content-dark: #dddddd;
+    --color-content-contrast: #222222;
 
-    --dark-grey-light: #999999;
-    --dark-grey-base: #888888;
-    --dark-grey-dark: #555555;
+    --color-dark-grey-light: #999999;
+    --color-dark-grey-base: #888888;
+    --color-dark-grey-dark: #555555;
 
-    --darkest-blue: #222233;
-    --darkest-blue-90: #222233e5;
+    --color-darkest-blue: #222233;
+    --color-darkest-blue-90: #222233e5;
 
-    --grey-light: #ffffff;
-    --grey-light-50: #ffffff80;
-    --grey-base: #eeeeee;
-    --grey-dark: #dddddd;
-    --grey-contrast: #222233;
+    --color-gray-light: #ffffff;
+    --color-gray-light-50: #ffffff80;
+    --color-gray-base: #eeeeee;
+    --color-gray-dark: #dddddd;
+    --color-gray-contrast: #222233;
 
-    --light-blue-base: #d3e7ff;
-    --light-blue-light: #ebf4ff;
-    --light-blue-dark: #9ecaff;
+    --color-light-blue-base: #d3e7ff;
+    --color-light-blue-light: #ebf4ff;
+    --color-light-blue-dark: #9ecaff;
 
-    --success-base: #33cc00;
-    --success-contrast: #ffffff;
-    --success-light: #55ee00;
-    --success-light-50: #55ee0080;
-    --success-dark: #11bb00;
-    --success-pale: #d5e0d1;
+    --color-success-base: #33cc00;
+    --color-success-contrast: #ffffff;
+    --color-success-light: #55ee00;
+    --color-success-light-50: #55ee0080;
+    --color-success-dark: #11bb00;
+    --color-success-pale: #d5e0d1;
 
-    --danger-base: #dd0000;
-    --danger-contrast: #ffffff;
-    --danger-light: #ff0000;
-    --danger-light-50: #ff000080;
-    --danger-dark: #bb0000;
-    --danger-pale: #dccbcb;
+    --color-danger-base: #dd0000;
+    --color-danger-contrast: #ffffff;
+    --color-danger-light: #ff0000;
+    --color-danger-light-50: #ff000080;
+    --color-danger-dark: #bb0000;
+    --color-danger-pale: #dccbcb;
 }
+
