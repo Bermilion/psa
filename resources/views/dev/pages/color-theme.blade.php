@@ -9,9 +9,10 @@
 @endphp
 
 @section('content')
-    <h1 class="text-6xl font-bold mb-40 text-content-contrast">Цветовая схема</h1>
+    <x-dev.type.hero class="mb-40 md:mb-[72px]" text="Цветовая схема"/>
+
     @foreach($colors['grouped'] as $group => $shades)
-        <x-color-block :group="$group" :shades="$shades" />
+        <x-dev.color-block :group="$group" :shades="$shades" />
     @endforeach
 
 @endsection
