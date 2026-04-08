@@ -11,6 +11,9 @@
 </head>
 <body class="min-h-screen bg-gray-50">
     <div class="max-w-5xl mx-auto p-32">
+        @if (request()->getPathinfo() !=='/dev')
+            <x-dev.type.link variant="dark" href="{{ asset('/dev') }}" text="Назад" />
+        @endif
         @yield('content')
     </div>
     <!-- Scripts -->
