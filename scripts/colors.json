@@ -1,0 +1,104 @@
+{
+    "grouped": {
+        "Accent": {
+            "bg-accent-base": "#0088ff",
+            "bg-accent-contrast": "#ffffff",
+            "bg-accent-light": "#00aaff",
+            "bg-accent-light-50": "#00aaff80",
+            "bg-accent-dark": "#0066ff",
+            "bg-accent-pale": "#d1d9e0"
+        },
+        "Brand": {
+            "bg-brand-accent": "#0088ff",
+            "bg-brand-light": "#ffffff"
+        },
+        "Content": {
+            "bg-content-base": "#f5f5f5",
+            "bg-content-light": "#ffffff",
+            "bg-content-dark": "#dddddd",
+            "bg-content-contrast": "#222222"
+        },
+        "Dark": {
+            "bg-dark-grey-light": "#999999",
+            "bg-dark-grey-base": "#888888",
+            "bg-dark-grey-dark": "#555555"
+        },
+        "Darkest": {
+            "bg-darkest-blue": "#222233",
+            "bg-darkest-blue-90": "#222233e5"
+        },
+        "Gray": {
+            "bg-gray-light": "#ffffff",
+            "bg-gray-light-50": "#ffffff80",
+            "bg-gray-base": "#eeeeee",
+            "bg-gray-dark": "#dddddd",
+            "bg-gray-contrast": "#222233"
+        },
+        "Light": {
+            "bg-light-blue-base": "#d3e7ff",
+            "bg-light-blue-light": "#ebf4ff",
+            "bg-light-blue-dark": "#9ecaff"
+        },
+        "Success": {
+            "bg-success-base": "#33cc00",
+            "bg-success-contrast": "#ffffff",
+            "bg-success-light": "#55ee00",
+            "bg-success-light-50": "#55ee0080",
+            "bg-success-dark": "#11bb00",
+            "bg-success-pale": "#d5e0d1"
+        },
+        "Danger": {
+            "bg-danger-base": "#dd0000",
+            "bg-danger-contrast": "#ffffff",
+            "bg-danger-light": "#ff0000",
+            "bg-danger-light-50": "#ff000080",
+            "bg-danger-dark": "#bb0000",
+            "bg-danger-pale": "#dccbcb"
+        }
+    },
+    "all": {
+        "accent-base": "#0088ff",
+        "accent-contrast": "#ffffff",
+        "accent-light": "#00aaff",
+        "accent-light-50": "#00aaff80",
+        "accent-dark": "#0066ff",
+        "accent-pale": "#d1d9e0",
+        "brand-accent": "#0088ff",
+        "brand-light": "#ffffff",
+        "content-base": "#f5f5f5",
+        "content-light": "#ffffff",
+        "content-dark": "#dddddd",
+        "content-contrast": "#222222",
+        "dark-grey-light": "#999999",
+        "dark-grey-base": "#888888",
+        "dark-grey-dark": "#555555",
+        "darkest-blue": "#222233",
+        "darkest-blue-90": "#222233e5",
+        "gray-light": "#ffffff",
+        "gray-light-50": "#ffffff80",
+        "gray-base": "#eeeeee",
+        "gray-dark": "#dddddd",
+        "gray-contrast": "#222233",
+        "light-blue-base": "#d3e7ff",
+        "light-blue-light": "#ebf4ff",
+        "light-blue-dark": "#9ecaff",
+        "success-base": "#33cc00",
+        "success-contrast": "#ffffff",
+        "success-light": "#55ee00",
+        "success-light-50": "#55ee0080",
+        "success-dark": "#11bb00",
+        "success-pale": "#d5e0d1",
+        "danger-base": "#dd0000",
+        "danger-contrast": "#ffffff",
+        "danger-light": "#ff0000",
+        "danger-light-50": "#ff000080",
+        "danger-dark": "#bb0000",
+        "danger-pale": "#dccbcb"
+    },
+    "meta": {
+        "generated_at": "2026-04-08T08:23:18+00:00",
+        "total_colors": 37,
+        "total_groups": 9,
+        "source": "resources/css/app.css"
+    }
+}

@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import tailwindcss from '@tailwindcss/vite';
+import generateColorsPlugin from './scripts/generate-colors.js';
 
 export default defineConfig({
     plugins: [
@@ -9,6 +10,7 @@ export default defineConfig({
             refresh: true,
         }),
         tailwindcss(),
+        generateColorsPlugin(),
     ],
     server: {
         watch: {
